@@ -1,10 +1,9 @@
 SJPowerAssertions
 =================
+A simple API for working with power assertions.
 
 ## Requirements
 - Runs on OS X 10.8 and later
-- IOKit
-- **Note:** Was tested on OS X but, should work on iOS.
 
 #What is a Power Assertion?
 - They allow user-requested work to complete (e.g. The user requested some large files to be processed)
@@ -16,7 +15,7 @@ SJPowerAssertions
 
 - It is more readable.
 - Makes it easier and more straightforward to use Power Assertions.
-- It is just simply an awesome way in creating power assertions.
+- It is just simply an awesome way for creating power assertions.
 
 
 ## Usage
@@ -66,6 +65,8 @@ SJPowerAssertions *assertionTest = [SJPowerAssertions defaultAssertion];
 [assertionTest stopHoldingAssertion];
 
 ```
+
+**Note:** For more information please take a look at the demo project.
 ## License
 
 SJYouTubeIDParser is available under the MIT license. See the [LICENSE](https://github.com/SoneeJohn/SJPowerAssertions/blob/master/LICENSE) file for more information.

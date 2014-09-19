@@ -1,0 +1,6 @@
+framework module SJPowerAssertions {
+  umbrella header "SJPowerAssertions.h"
+
+  export *
+  module * { export * }
+}

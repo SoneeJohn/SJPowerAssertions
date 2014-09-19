@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A54715A819CBA25800ECDAE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A54715A719CBA25800ECDAE1 /* main.m */; };
+		A54715AB19CBA25800ECDAE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A54715AA19CBA25800ECDAE1 /* AppDelegate.m */; };
+		A54715AD19CBA25800ECDAE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54715AC19CBA25800ECDAE1 /* Images.xcassets */; };
+		A54715B019CBA25800ECDAE1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A54715AE19CBA25800ECDAE1 /* MainMenu.xib */; };
+		A54715BC19CBA25800ECDAE1 /* SJPowerAssertionsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A54715BB19CBA25800ECDAE1 /* SJPowerAssertionsDemoTests.m */; };
+		A54715C619CBA71A00ECDAE1 /* SJPowerAssertions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54715C519CBA71A00ECDAE1 /* SJPowerAssertions.framework */; };
+		A54715C819CBA85100ECDAE1 /* SJPowerAssertions.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A54715C519CBA71A00ECDAE1 /* SJPowerAssertions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A54715B619CBA25800ECDAE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A547159A19CBA25800ECDAE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A54715A119CBA25800ECDAE1;
+			remoteInfo = SJPowerAssertionsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A54715C719CBA84D00ECDAE1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A54715C819CBA85100ECDAE1 /* SJPowerAssertions.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A54715A219CBA25800ECDAE1 /* SJPowerAssertionsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJPowerAssertionsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54715A619CBA25800ECDAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A54715A719CBA25800ECDAE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A54715A919CBA25800ECDAE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A54715AA19CBA25800ECDAE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A54715AC19CBA25800ECDAE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A54715AF19CBA25800ECDAE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A54715B519CBA25800ECDAE1 /* SJPowerAssertionsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJPowerAssertionsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54715BA19CBA25800ECDAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A54715BB19CBA25800ECDAE1 /* SJPowerAssertionsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJPowerAssertionsDemoTests.m; sourceTree = "<group>"; };
+		A54715C519CBA71A00ECDAE1 /* SJPowerAssertions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SJPowerAssertions.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A547159F19CBA25800ECDAE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54715C619CBA71A00ECDAE1 /* SJPowerAssertions.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54715B219CBA25800ECDAE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A547159919CBA25800ECDAE1 = {
+			isa = PBXGroup;
+			children = (
+				A54715A419CBA25800ECDAE1 /* SJPowerAssertionsDemo */,
+				A54715B819CBA25800ECDAE1 /* SJPowerAssertionsDemoTests */,
+				A54715A319CBA25800ECDAE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A54715A319CBA25800ECDAE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A54715A219CBA25800ECDAE1 /* SJPowerAssertionsDemo.app */,
+				A54715B519CBA25800ECDAE1 /* SJPowerAssertionsDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A54715A419CBA25800ECDAE1 /* SJPowerAssertionsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A54715A919CBA25800ECDAE1 /* AppDelegate.h */,
+				A54715AA19CBA25800ECDAE1 /* AppDelegate.m */,
+				A54715AC19CBA25800ECDAE1 /* Images.xcassets */,
+				A54715AE19CBA25800ECDAE1 /* MainMenu.xib */,
+				A54715A519CBA25800ECDAE1 /* Supporting Files */,
+			);
+			path = SJPowerAssertionsDemo;
+			sourceTree = "<group>";
+		};
+		A54715A519CBA25800ECDAE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A54715C519CBA71A00ECDAE1 /* SJPowerAssertions.framework */,
+				A54715A619CBA25800ECDAE1 /* Info.plist */,
+				A54715A719CBA25800ECDAE1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A54715B819CBA25800ECDAE1 /* SJPowerAssertionsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A54715BB19CBA25800ECDAE1 /* SJPowerAssertionsDemoTests.m */,
+				A54715B919CBA25800ECDAE1 /* Supporting Files */,
+			);
+			path = SJPowerAssertionsDemoTests;
+			sourceTree = "<group>";
+		};
+		A54715B919CBA25800ECDAE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A54715BA19CBA25800ECDAE1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A54715A119CBA25800ECDAE1 /* SJPowerAssertionsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54715BF19CBA25800ECDAE1 /* Build configuration list for PBXNativeTarget "SJPowerAssertionsDemo" */;
+			buildPhases = (
+				A547159E19CBA25800ECDAE1 /* Sources */,
+				A547159F19CBA25800ECDAE1 /* Frameworks */,
+				A54715A019CBA25800ECDAE1 /* Resources */,
+				A54715C719CBA84D00ECDAE1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SJPowerAssertionsDemo;
+			productName = SJPowerAssertionsDemo;
+			productReference = A54715A219CBA25800ECDAE1 /* SJPowerAssertionsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A54715B419CBA25800ECDAE1 /* SJPowerAssertionsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54715C219CBA25800ECDAE1 /* Build configuration list for PBXNativeTarget "SJPowerAssertionsDemoTests" */;
+			buildPhases = (
+				A54715B119CBA25800ECDAE1 /* Sources */,
+				A54715B219CBA25800ECDAE1 /* Frameworks */,
+				A54715B319CBA25800ECDAE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A54715B719CBA25800ECDAE1 /* PBXTargetDependency */,
+			);
+			name = SJPowerAssertionsDemoTests;
+			productName = SJPowerAssertionsDemoTests;
+			productReference = A54715B519CBA25800ECDAE1 /* SJPowerAssertionsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A547159A19CBA25800ECDAE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = AlphaSoft;
+				TargetAttributes = {
+					A54715A119CBA25800ECDAE1 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					A54715B419CBA25800ECDAE1 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = A54715A119CBA25800ECDAE1;
+					};
+				};
+			};
+			buildConfigurationList = A547159D19CBA25800ECDAE1 /* Build configuration list for PBXProject "SJPowerAssertionsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A547159919CBA25800ECDAE1;
+			productRefGroup = A54715A319CBA25800ECDAE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A54715A119CBA25800ECDAE1 /* SJPowerAssertionsDemo */,
+				A54715B419CBA25800ECDAE1 /* SJPowerAssertionsDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A54715A019CBA25800ECDAE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54715AD19CBA25800ECDAE1 /* Images.xcassets in Resources */,
+				A54715B019CBA25800ECDAE1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54715B319CBA25800ECDAE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A547159E19CBA25800ECDAE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54715AB19CBA25800ECDAE1 /* AppDelegate.m in Sources */,
+				A54715A819CBA25800ECDAE1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54715B119CBA25800ECDAE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54715BC19CBA25800ECDAE1 /* SJPowerAssertionsDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A54715B719CBA25800ECDAE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A54715A119CBA25800ECDAE1 /* SJPowerAssertionsDemo */;
+			targetProxy = A54715B619CBA25800ECDAE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A54715AE19CBA25800ECDAE1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A54715AF19CBA25800ECDAE1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A54715BD19CBA25800ECDAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A54715BE19CBA25800ECDAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A54715C019CBA25800ECDAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SJPowerAssertionsDemo",
+				);
+				INFOPLIST_FILE = SJPowerAssertionsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A54715C119CBA25800ECDAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SJPowerAssertionsDemo",
+				);
+				INFOPLIST_FILE = SJPowerAssertionsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A54715C319CBA25800ECDAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SJPowerAssertionsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SJPowerAssertionsDemo.app/Contents/MacOS/SJPowerAssertionsDemo";
+			};
+			name = Debug;
+		};
+		A54715C419CBA25800ECDAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SJPowerAssertionsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SJPowerAssertionsDemo.app/Contents/MacOS/SJPowerAssertionsDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A547159D19CBA25800ECDAE1 /* Build configuration list for PBXProject "SJPowerAssertionsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54715BD19CBA25800ECDAE1 /* Debug */,
+				A54715BE19CBA25800ECDAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54715BF19CBA25800ECDAE1 /* Build configuration list for PBXNativeTarget "SJPowerAssertionsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54715C019CBA25800ECDAE1 /* Debug */,
+				A54715C119CBA25800ECDAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A54715C219CBA25800ECDAE1 /* Build configuration list for PBXNativeTarget "SJPowerAssertionsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54715C319CBA25800ECDAE1 /* Debug */,
+				A54715C419CBA25800ECDAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A547159A19CBA25800ECDAE1 /* Project object */;
+}
