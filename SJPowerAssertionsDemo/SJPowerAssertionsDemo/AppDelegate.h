@@ -8,7 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import <SJPowerAssertions/SJPowerAssertions.h>
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate, SJPowerAssertionsDelegate>
 
 @property (weak) IBOutlet NSMatrix *radioControls;
 @property (weak) IBOutlet NSButton *startButton;

@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A53110D019CCBDB6006F41EA /* SJPowerAssertions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53110CF19CCBDB6006F41EA /* SJPowerAssertions.framework */; };
+		A53110D119CCBDBD006F41EA /* SJPowerAssertions.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A53110CF19CCBDB6006F41EA /* SJPowerAssertions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A54715A819CBA25800ECDAE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A54715A719CBA25800ECDAE1 /* main.m */; };
 		A54715AB19CBA25800ECDAE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A54715AA19CBA25800ECDAE1 /* AppDelegate.m */; };
 		A54715AD19CBA25800ECDAE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54715AC19CBA25800ECDAE1 /* Images.xcassets */; };
 		A54715B019CBA25800ECDAE1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A54715AE19CBA25800ECDAE1 /* MainMenu.xib */; };
 		A54715BC19CBA25800ECDAE1 /* SJPowerAssertionsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A54715BB19CBA25800ECDAE1 /* SJPowerAssertionsDemoTests.m */; };
-		A54715C619CBA71A00ECDAE1 /* SJPowerAssertions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54715C519CBA71A00ECDAE1 /* SJPowerAssertions.framework */; };
-		A54715C819CBA85100ECDAE1 /* SJPowerAssertions.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A54715C519CBA71A00ECDAE1 /* SJPowerAssertions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +33,14 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A54715C819CBA85100ECDAE1 /* SJPowerAssertions.framework in CopyFiles */,
+				A53110D119CCBDBD006F41EA /* SJPowerAssertions.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A53110CF19CCBDB6006F41EA /* SJPowerAssertions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SJPowerAssertions.framework; sourceTree = "<group>"; };
 		A54715A219CBA25800ECDAE1 /* SJPowerAssertionsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJPowerAssertionsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54715A619CBA25800ECDAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A54715A719CBA25800ECDAE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -50,7 +51,6 @@
 		A54715B519CBA25800ECDAE1 /* SJPowerAssertionsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJPowerAssertionsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54715BA19CBA25800ECDAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A54715BB19CBA25800ECDAE1 /* SJPowerAssertionsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJPowerAssertionsDemoTests.m; sourceTree = "<group>"; };
-		A54715C519CBA71A00ECDAE1 /* SJPowerAssertions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SJPowerAssertions.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A54715C619CBA71A00ECDAE1 /* SJPowerAssertions.framework in Frameworks */,
+				A53110D019CCBDB6006F41EA /* SJPowerAssertions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +105,7 @@
 		A54715A519CBA25800ECDAE1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A54715C519CBA71A00ECDAE1 /* SJPowerAssertions.framework */,
+				A53110CF19CCBDB6006F41EA /* SJPowerAssertions.framework */,
 				A54715A619CBA25800ECDAE1 /* Info.plist */,
 				A54715A719CBA25800ECDAE1 /* main.m */,
 			);
@@ -427,6 +427,7 @@
 				A54715C119CBA25800ECDAE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A54715C219CBA25800ECDAE1 /* Build configuration list for PBXNativeTarget "SJPowerAssertionsDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +436,7 @@
 				A54715C419CBA25800ECDAE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
