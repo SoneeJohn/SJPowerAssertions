@@ -121,4 +121,4 @@ NSLog(@"Assertion creation process failed. The assertion ID is: %u, and the work
 **Note:** For more information please take a look at the demo project which demos all the available methods.
 ## License
 
-SJYouTubeIDParser is available under the MIT license. See the [LICENSE](https://github.com/SoneeJohn/SJPowerAssertions/blob/master/LICENSE) file for more information.
+SJPowerAssertions is available under the MIT license. See the [LICENSE](https://github.com/SoneeJohn/SJPowerAssertions/blob/master/LICENSE) file for more information.
