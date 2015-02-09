@@ -32,7 +32,7 @@ A simple API for working with power assertions.
 -(void)createPowerAssertion:(NSString *)description startHoldingAssertionAfter:(NSTimeInterval)time assertionType:(SJPowerAssertionType)assertionType;
 -(void)createPowerAssertion:(NSString *)description holdFor:(NSTimeInterval)time assertionType:(SJPowerAssertionType)assertionType;
 
-//Method to quick create a power assertion
+//Method to quickly create a power assertion
 -(void)createQuickPowerAssertion;
 
 //Stop a assertion 
