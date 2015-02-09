@@ -50,6 +50,27 @@
     
     [test3 createPowerAssertion:@"5 Mins Test" holdFor:300 assertionType:SJPowerAssertionsPreventDisplayIdleSleep];
     
+    
+    //Quick power assertion demo usage
+    SJPowerAssertions *quickAssertion = [[SJPowerAssertions alloc]init];
+    
+    
+    //By default the defaultAssertiontype is set to 1, which is 'SJPowerAssertionsPreventIdleSleep' set to 2, to use 'SJPowerAssertionsPreventDisplayIdleSleep'
+    
+    quickAssertion.defaultAssertiontype = 2;
+    
+    [quickAssertion setDelegate:self];
+    
+    //Create the assertion e.g work description 'Quick Assertion (deylj)'
+    [quickAssertion createQuickPowerAssertion];
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(20 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    
+        [quickAssertion stopHoldingAssertion];
+    
+    });
+     
+    
 
 
 }
@@ -68,6 +89,30 @@
     NSLog(@"Assertion creation process failed. The assertion ID is: %u, and the work description is: %@",asssertion.currentPowerAssertion, asssertion.assertionDescription);
 
 }
+
+
+
+-(void)powerAssertionTerminationSuccessful:(SJPowerAssertions *)assertion{
+    
+    NSLog(@"The de-assertion was completed successful. The assertion ID is: %u, and the work description is: %@", assertion.currentPowerAssertion, assertion.assertionDescription);
+
+    
+}
+
+/**
+ Delegate method that is called when an assertion has been terminated unsuccessfully
+ */
+
+-(void)powerAssertionTerminationFailed:(SJPowerAssertions *)assertion{
+    
+    NSLog(@"The de-assertion was completed unsuccessfully. The assertion ID is: %u, and the work description is: %@", assertion.currentPowerAssertion, assertion.assertionDescription);
+
+    
+}
+
+
+
+
 - (IBAction)startAction:(id)sender {
     
     if ([self.radioControls selectedTag] == 1) {
@@ -84,7 +129,7 @@
         self.powerAssertion.verboseLogging = YES;
         
         [self.powerAssertion createPowerAssertion:@"Power Assertion Test Prevent idle display sleep" assertionType:SJPowerAssertionsPreventDisplayIdleSleep];
-        
+         
         /*If you perfer you may use the block method
         [self.powerAssertion createPowerAssertion:@"Power Assertion Test Prevent idle display sleep" assertionType:SJPowerAssertionsPreventDisplayIdleSleep completionHandler:^(NSError *error, unsigned int *assertionID) {
             
@@ -141,4 +186,6 @@
     
      [self.powerAssertion stopHoldingAssertion];
 }
+
+
 @end

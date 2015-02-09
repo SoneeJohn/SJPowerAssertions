@@ -6,14 +6,14 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		VJNBzxwPi8PUCDnJqrgx5Sq7ZcE=
+		m32yTIuStEXjZJEa2oMkq3Nwm+s=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/SJPowerAssertions.h</key>
 		<data>
-		Pa6NPYgKoW9OmA2R7VRrsfQOrrI=
+		LtlCODw1U6xF11EjjNvMio9ud1o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -21,7 +21,7 @@
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		VJNBzxwPi8PUCDnJqrgx5Sq7ZcE=
+		m32yTIuStEXjZJEa2oMkq3Nwm+s=
 		</data>
 	</dict>
 	<key>rules</key>

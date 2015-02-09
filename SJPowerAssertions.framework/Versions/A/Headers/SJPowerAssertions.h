@@ -7,7 +7,7 @@
 /*The MIT License (MIT)
 
 Copyright (c) 2014 Soneé John
-
+ 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -50,6 +50,22 @@ typedef NS_ENUM(NSUInteger, SJPowerAssertionType) {
     
     
 };
+
+
+/**
+ This will create a quick power assertion with a random work description e.g "Quick Assertion (XXX)"
+ 
+ @note By default the assertion type will be:
+ @b SJPowerAssertionsPreventIdleSleep @b 
+ 
+ @note
+ 
+ @attention To change this refer to the
+ 'defaultAssertiontype' property @attention
+ 
+ */
+
+-(void)createQuickPowerAssertion;
 
 /**
  Creates a power assertion.
@@ -121,6 +137,18 @@ typedef NS_ENUM(NSUInteger, SJPowerAssertionType) {
  The description of the current assertion
  */
 @property (nonatomic, strong) NSString *assertionDescription;
+
+/**
+ 
+ This is used to set the type of assertion that will be held when using the createQuickPowerAssertion method.
+ By default it's set to 1, which is SJPowerAssertionsPreventIdleSleep
+ 
+ To set to SJPowerAssertionsPreventIdleSleep simply set this to 2.
+ 
+ */
+
+@property (nonatomic, assign) SJPowerAssertionType defaultAssertiontype;
+
 
 @property (nonatomic, assign) NSObject<SJPowerAssertionsDelegate> *delegate;
 
